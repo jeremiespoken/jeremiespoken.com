@@ -1,2 +1,2 @@
 # jeremiespoken.com
-Repository of personal website
+Repository for personal website
