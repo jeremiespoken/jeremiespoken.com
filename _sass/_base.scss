@@ -1,4 +1,92 @@
-body {
-    font-family: 'Karla', sans-serif;
-    background: #fefefe;
+html
+{
+    font-size: $base-font-size;
+}
+
+body
+{
+    font-family: $base-font-family;
+    font-size: 1.4rem;
+    line-height: $base-line-height;
+
+    max-width: 60rem;
+    padding: 0 $sp2;
+}
+
+h1
+{
+    font-size: 2.4rem;
+
+    margin: 0 0 $sp2 0;
+}
+
+h2
+{
+    font-size: 1.8rem;
+}
+
+h3
+{
+    font-size: 1.6rem;
+}
+
+ul
+{
+    padding: 0;
+
+    list-style: none;
+}
+
+img
+{
+    width: 100%;
+}
+
+p
+{
+    margin: 0 0 $sp2 0;
+}
+
+a
+{
+    text-decoration: none;
+    color: blue;
+}
+
+
+// SITE
+.site-header
+{
+    display: flex;
+
+    height: $sp2*4;
+
+    text-align: center;
+
+    align-items: center;
+
+    border-bottom: 1px solid #eee;
+
+    margin-bottom: $sp2;
+
+    a {
+      margin-right: $sp2;
+    }
+}
+
+
+
+// POST
+.post-header
+{
+    margin-bottom: $sp2;
+}
+
+.post-meta
+{
+    font-size: 1.2rem;
+
+    margin: 0 0 $sp 0;
+
+    text-transform: uppercase;
 }

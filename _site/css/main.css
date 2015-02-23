@@ -356,6 +356,54 @@ td,
 th {
   padding: 0; }
 
+html {
+  font-size: 62.5%; }
+
 body {
-  font-family: 'Karla', sans-serif;
-  background: #fefefe; }
+  font-family: "Karla", Helvetica, Arial, sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  max-width: 60rem;
+  padding: 0 1.6rem; }
+
+h1 {
+  font-size: 2.4rem;
+  margin: 0 0 1.6rem 0; }
+
+h2 {
+  font-size: 1.8rem; }
+
+h3 {
+  font-size: 1.6rem; }
+
+ul {
+  padding: 0;
+  list-style: none; }
+
+img {
+  width: 100%; }
+
+p {
+  margin: 0 0 1.6rem 0; }
+
+a {
+  text-decoration: none;
+  color: blue; }
+
+.site-header {
+  display: flex;
+  height: 6.4rem;
+  text-align: center;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 1.6rem; }
+  .site-header a {
+    margin-right: 1.6rem; }
+
+.post-header {
+  margin-bottom: 1.6rem; }
+
+.post-meta {
+  font-size: 1.2rem;
+  margin: 0 0 0.8rem 0;
+  text-transform: uppercase; }

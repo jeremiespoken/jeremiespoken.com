@@ -1,8 +1,8 @@
 ---
 layout: page
-title: About
+title: Profile
 permalink: /about/
 ---
 
-#hello
+Hello, i'm Jeremie Michaels Lim a designer and tinkerer currently working for PayPal.
 
