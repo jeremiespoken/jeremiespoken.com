@@ -363,12 +363,15 @@ body {
   font-family: "Karla", Helvetica, Arial, sans-serif;
   font-size: 1.4rem;
   line-height: 1.5;
-  max-width: 60rem;
-  padding: 0 1.6rem; }
+  padding: 0 1.6rem;
+  color: #262626; }
 
 h1 {
   font-size: 2.4rem;
   margin: 0 0 1.6rem 0; }
+
+h1.display {
+  font-size: 3.6rem; }
 
 h2 {
   font-size: 1.8rem; }
@@ -388,20 +391,23 @@ p {
 
 a {
   text-decoration: none;
-  color: blue; }
+  color: #270ddb; }
+
+a:hover {
+  color: #ece9fe; }
 
 .site-header {
   display: flex;
   height: 6.4rem;
+  margin-bottom: 1.6rem;
   text-align: center;
-  align-items: center;
-  border-bottom: 1px solid #eee;
-  margin-bottom: 1.6rem; }
+  align-items: center; }
   .site-header a {
     margin-right: 1.6rem; }
 
 .post-header {
-  margin-bottom: 1.6rem; }
+  margin-bottom: 1.6rem;
+  text-align: center; }
 
 .post-meta {
   font-size: 1.2rem;

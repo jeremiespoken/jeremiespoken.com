@@ -2,11 +2,17 @@
 layout: default
 ---
 
+{% include header.html %}
+
 <div class="home">
+
+<h1 class="display">
+  Welcome to the 2015
+</h1>
 {% for post in site.posts %}
-<div>
-  <h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
-  {{ post.date | date: "%b %-d, %Y" }}
+<div class="post">
+  <h1><a class="home__post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+  <p class="post-meta home__post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
 </div>
 {% endfor %}
 </div>

@@ -9,8 +9,9 @@ body
     font-size: 1.4rem;
     line-height: $base-line-height;
 
-    max-width: 60rem;
     padding: 0 $sp2;
+
+    color: $black;
 }
 
 h1
@@ -18,6 +19,10 @@ h1
     font-size: 2.4rem;
 
     margin: 0 0 $sp2 0;
+}
+
+h1.display {
+    font-size: 3.6rem;
 }
 
 h2
@@ -50,7 +55,12 @@ p
 a
 {
     text-decoration: none;
-    color: blue;
+
+    color: $blue;
+}
+
+a:hover {
+  color: lighten($blue, 50%)
 }
 
 
@@ -60,17 +70,14 @@ a
     display: flex;
 
     height: $sp2*4;
+    margin-bottom: $sp2;
 
     text-align: center;
 
     align-items: center;
-
-    border-bottom: 1px solid #eee;
-
-    margin-bottom: $sp2;
-
-    a {
-      margin-right: $sp2;
+    a
+    {
+        margin-right: $sp2;
     }
 }
 
@@ -80,6 +87,8 @@ a
 .post-header
 {
     margin-bottom: $sp2;
+
+    text-align: center;
 }
 
 .post-meta
