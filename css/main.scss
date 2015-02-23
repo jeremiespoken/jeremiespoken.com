@@ -1,0 +1,15 @@
+---
+
+---
+@charset "utf-8";
+
+$base-font-family: 'Karla', Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-line-height: 1.5;
+
+$spacing-unit:     16px;
+
+@import
+  "normalize",
+  "base"
+;

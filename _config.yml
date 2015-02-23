@@ -1,0 +1,12 @@
+# Site settings
+title: jeremiespoken
+email: hello@jeremiespoken.com
+description: > # this means to ignore newlines until "baseurl:"
+  Journal of Jeremie Michaels Lim, designer and experimenter.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://jeremiespoken.com" # the base hostname & protocol for your site
+twitter_username: jeremiespoken
+github_username:  jeremiespoken
+
+# Build settings
+markdown: kramdown
