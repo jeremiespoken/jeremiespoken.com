@@ -7,33 +7,53 @@ body
 {
     font-family: $base-font-family;
     font-size: 1.4rem;
-    line-height: $base-line-height;
+    line-height: $sp * 3;
 
+    margin: 0 auto;
     padding: 0 $sp2;
 
-    color: $black;
+    color: $grey;
+    background: white;
 }
 
 h1
 {
-    font-size: 2.4rem;
+    font-size: $sp * 3;
+    line-height: $sp * 4;
 
-    margin: 0 0 $sp2 0;
-}
-
-h1.display {
-    font-size: 3.6rem;
+    margin-top: $sp;
+    margin-bottom: $sp;
 }
 
 h2
 {
     font-size: 1.8rem;
+    line-height: $sp * 4;
+
+    margin-top: $sp;
+    margin-bottom: $sp;
 }
 
 h3
 {
     font-size: 1.6rem;
+    line-height: $sp * 3;
+
+    margin-top: $sp;
+    margin-bottom: $sp;
 }
+
+h4
+{
+    font-size: 1.2rem;
+    line-height: $sp * 3;
+
+    margin-top: $sp;
+    margin-bottom: $sp;
+
+    text-transform: uppercase;
+}
+
 
 ul
 {
@@ -56,11 +76,12 @@ a
 {
     text-decoration: none;
 
-    color: $blue;
+    color: $primary;
 }
 
-a:hover {
-  color: lighten($blue, 50%)
+a:hover
+{
+    color: lighten($primary, 50%);
 }
 
 
@@ -75,27 +96,36 @@ a:hover {
     text-align: center;
 
     align-items: center;
-    a
-    {
-        margin-right: $sp2;
-    }
 }
 
+// HEADER
+.page-link {
+    text-align: right;
+}
 
+// HOME
+.home__post
+{
+    margin-bottom: $sp2 * 2;
+}
+
+.home__post-link {
+    color: $black;
+}
 
 // POST
 .post-header
 {
     margin-bottom: $sp2;
-
-    text-align: center;
 }
 
 .post-meta
 {
     font-size: 1.2rem;
 
-    margin: 0 0 $sp 0;
+    margin: 0;
 
     text-transform: uppercase;
+
+    color: $grey;
 }

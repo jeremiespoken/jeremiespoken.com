@@ -362,22 +362,36 @@ html {
 body {
   font-family: "Karla", Helvetica, Arial, sans-serif;
   font-size: 1.4rem;
-  line-height: 1.5;
+  line-height: 2.4rem;
+  margin: 0 auto;
   padding: 0 1.6rem;
-  color: #262626; }
+  color: #858a9a;
+  background: white; }
 
 h1 {
   font-size: 2.4rem;
-  margin: 0 0 1.6rem 0; }
-
-h1.display {
-  font-size: 3.6rem; }
+  line-height: 3.2rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem; }
 
 h2 {
-  font-size: 1.8rem; }
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem; }
 
 h3 {
-  font-size: 1.6rem; }
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem; }
+
+h4 {
+  font-size: 1.2rem;
+  line-height: 2.4rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  text-transform: uppercase; }
 
 ul {
   padding: 0;
@@ -391,10 +405,10 @@ p {
 
 a {
   text-decoration: none;
-  color: #270ddb; }
+  color: #1e76f2; }
 
 a:hover {
-  color: #ece9fe; }
+  color: white; }
 
 .site-header {
   display: flex;
@@ -402,14 +416,21 @@ a:hover {
   margin-bottom: 1.6rem;
   text-align: center;
   align-items: center; }
-  .site-header a {
-    margin-right: 1.6rem; }
+
+.page-link {
+  text-align: right; }
+
+.home__post {
+  margin-bottom: 3.2rem; }
+
+.home__post-link {
+  color: #2c2e2f; }
 
 .post-header {
-  margin-bottom: 1.6rem;
-  text-align: center; }
+  margin-bottom: 1.6rem; }
 
 .post-meta {
   font-size: 1.2rem;
-  margin: 0 0 0.8rem 0;
-  text-transform: uppercase; }
+  margin: 0;
+  text-transform: uppercase;
+  color: #858a9a; }
