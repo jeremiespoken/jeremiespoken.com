@@ -363,6 +363,7 @@ body {
   font-family: "Karla", Helvetica, Arial, sans-serif;
   font-size: 1.4rem;
   line-height: 2.4rem;
+  max-width: 44.8rem;
   margin: 0 auto;
   padding: 0 1.6rem;
   color: #858a9a;
@@ -393,6 +394,12 @@ h4 {
   margin-bottom: 0.8rem;
   text-transform: uppercase; }
 
+h1,
+h2,
+h3,
+h4 {
+  color: #2c2e2f; }
+
 ul {
   padding: 0;
   list-style: none; }
@@ -409,6 +416,10 @@ a {
 
 a:hover {
   color: white; }
+
+.logo {
+  width: 3.2rem;
+  height: 3.2rem; }
 
 .site-header {
   display: flex;
@@ -437,3 +448,8 @@ a:hover {
   margin: 0;
   text-transform: uppercase;
   color: #858a9a; }
+
+.site-footer {
+  padding: 1.6rem;
+  color: #2c2e2f;
+  background: #eff0f3; }
