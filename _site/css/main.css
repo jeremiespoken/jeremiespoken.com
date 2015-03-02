@@ -357,7 +357,8 @@ th {
   padding: 0; }
 
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  background: url(../assets/line-bg.svg) repeat-y 0 0/100%; }
   @media screen and (min-width: 448px) {
     html {
       font-size: 75%; } }
@@ -370,9 +371,7 @@ body {
   font-size: 1.4rem;
   line-height: 2.4rem;
   margin: 0 auto;
-  padding: 0 2.4rem;
-  color: #858a9a;
-  background: white; }
+  color: #858a9a; }
 
 h1 {
   font-size: 2.4rem;
@@ -416,20 +415,26 @@ p {
   margin: 0 0 1.6rem 0; }
 
 a {
+  padding-bottom: .4rem;
+  transition: color .2s linear;
   text-decoration: none;
-  color: #1e76f2; }
+  color: #2c2e2f;
+  border-bottom: .2rem solid; }
 
 a:hover {
-  color: white; }
+  color: #1e76f2; }
 
 .logo {
   width: 3.2rem;
-  height: 3.2rem; }
+  height: 3.2rem;
+  padding-bottom: 0;
+  border: 0; }
 
 .site-header {
   display: flex;
   height: 9.6rem;
   margin-bottom: 1.6rem;
+  padding: 0 2.4rem;
   justify-content: space-between;
   align-items: center; }
 
@@ -438,6 +443,10 @@ a:hover {
   font-weight: bold;
   text-transform: uppercase;
   color: #2c2e2f; }
+
+.home {
+  max-width: 50rem;
+  padding: 0 2.4rem; }
 
 .home__post {
   margin-bottom: 3.2rem; }
@@ -455,6 +464,6 @@ a:hover {
   color: #858a9a; }
 
 .site-footer {
-  padding: 1.6rem;
+  padding: 1.6rem 2.4rem;
   color: #2c2e2f;
   background: #eff0f3; }

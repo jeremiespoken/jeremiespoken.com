@@ -2,11 +2,13 @@ html
 {
     font-size: $base-font-size;
 
-    @media screen and (min-width: $break-medium) {
+    background: url(../assets/line-bg.svg) repeat-y 0 0 / 100%;
+    @media screen and (min-width: $break-medium)
+    {
         font-size: 75%;
     }
-
-    @media screen and (min-width: $break-large) {
+    @media screen and (min-width: $break-large)
+    {
         font-size: 100%;
     }
 }
@@ -18,10 +20,8 @@ body
     line-height: $sp * 3;
 
     margin: 0 auto;
-    padding: 0 $sp * 3;
 
-    color: $grey;
-    background: white;
+    color: $color-grey;
 }
 
 h1
@@ -67,7 +67,7 @@ h2,
 h3,
 h4
 {
-    color: $black;
+    color: $color-black;
 }
 
 
@@ -90,14 +90,18 @@ p
 
 a
 {
+    padding-bottom: .4rem;
+
+    transition: color .2s linear;
     text-decoration: none;
 
-    color: $primary;
+    color: $color-black;
+    border-bottom: .2rem solid;
 }
 
 a:hover
 {
-    color: lighten($primary, 50%);
+    color: $color-primary;
 }
 
 
@@ -106,6 +110,9 @@ a:hover
 {
     width: 3.2rem;
     height: 3.2rem;
+    padding-bottom: 0;
+
+    border: 0;
 }
 .site-header
 {
@@ -113,6 +120,7 @@ a:hover
 
     height: $sp2*6;
     margin-bottom: $sp2;
+    padding: 0 $sp * 3;
 
     justify-content: space-between;
     align-items: center;
@@ -125,10 +133,16 @@ a:hover
 
     text-transform: uppercase;
 
-    color: $black;
+    color: $color-black;
 }
 
 // HOME
+
+.home
+{
+    max-width: 50rem;
+    padding: 0 $sp * 3;
+}
 .home__post
 {
     margin-bottom: $sp2 * 2;
@@ -136,7 +150,7 @@ a:hover
 
 .home__post-link
 {
-    color: $black;
+    color: $color-black;
 }
 
 // POST
@@ -153,14 +167,14 @@ a:hover
 
     text-transform: uppercase;
 
-    color: $grey;
+    color: $color-grey;
 }
 
 // FOOTER
 .site-footer
 {
-    padding: $sp2;
+    padding: $sp2 $sp * 3;
 
-    color: $black;
+    color: $color-black;
     background: #eff0f3;
 }
