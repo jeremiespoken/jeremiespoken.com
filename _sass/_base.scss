@@ -93,14 +93,21 @@ a:hover
     height: $sp2*4;
     margin-bottom: $sp2;
 
-    text-align: center;
+    justify-content: space-between;
 
     align-items: center;
 }
 
-// HEADER
-.page-link {
-    text-align: right;
+
+
+.page-link
+{
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+    color: $black;
 }
 
 // HOME
@@ -109,7 +116,8 @@ a:hover
     margin-bottom: $sp2 * 2;
 }
 
-.home__post-link {
+.home__post-link
+{
     color: $black;
 }
 

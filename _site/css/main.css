@@ -414,11 +414,14 @@ a:hover {
   display: flex;
   height: 6.4rem;
   margin-bottom: 1.6rem;
-  text-align: center;
+  justify-content: space-between;
   align-items: center; }
 
 .page-link {
-  text-align: right; }
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #2c2e2f; }
 
 .home__post {
   margin-bottom: 3.2rem; }
