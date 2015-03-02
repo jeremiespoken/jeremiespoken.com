@@ -11,7 +11,18 @@ layout: default
 
     <h1><a class="home__post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
 
-    {{ post.content }}
+    {{ post.excerpt }}
+
+    <div>
+      <a class="home__post__more" href="{{ post.url | prepend: site.baseurl }}">
+        <svg class="home__post__more__arrow" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" version="1.1">
+          <title>Read more&hellip;</title>
+          <g stroke="none" fill="none" fill-rule="evenodd">
+            <path stroke-width="1" class="home__post__more__arrow--stroke" d="M25.7 15L32.7 20.6 7 20.6"/>
+          </g>
+        </svg>
+      </a>
+    </div>
   </div>
   {% endfor %}
 </div>

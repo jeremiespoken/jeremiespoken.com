@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Restarting&hellip;"
+excerpt: "I promised myself at the start 2015 to write more, well it's past new year so i'll have to settle for chinese new year's resolution&hellip;"
 date:   2015-02-23 10:37:00
 categories: personal restarting
 ---

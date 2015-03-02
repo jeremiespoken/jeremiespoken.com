@@ -21,7 +21,7 @@ body
 
     margin: 0 auto;
 
-    color: $color-grey;
+    color: $grey;
 }
 
 h1
@@ -67,7 +67,7 @@ h2,
 h3,
 h4
 {
-    color: $color-black;
+    color: $black;
 }
 
 
@@ -95,8 +95,7 @@ a
     transition: color .2s linear;
     text-decoration: none;
 
-    color: $color-black;
-    border-bottom: .2rem solid;
+    color: $black;
 }
 
 a:hover
@@ -133,12 +132,12 @@ a:hover
 
     text-transform: uppercase;
 
-    color: $color-black;
+    color: $black;
 }
 
 // HOME
 
-.home
+.home,.post
 {
     max-width: 50rem;
     padding: 0 $sp * 3;
@@ -150,7 +149,22 @@ a:hover
 
 .home__post-link
 {
-    color: $color-black;
+    color: $black;
+}
+
+.home__post__more {
+    border-bottom: 0;
+}
+
+.home__post__more__arrow--stroke {
+    stroke: $color-primary;
+    stroke-dasharray: 30;
+    stroke-dashoffset: 0px;
+}
+
+.home__post__more:hover .home__post__more__arrow--stroke {
+    stroke-dashoffset: 60px;
+    transition: stroke-dashoffset 0.5s;
 }
 
 // POST
@@ -167,14 +181,21 @@ a:hover
 
     text-transform: uppercase;
 
-    color: $color-grey;
+    color: $grey;
+}
+
+.cube   {
+    width: 1rem;
+    height: 1rem;
+    background: $color-primary;
 }
 
 // FOOTER
 .site-footer
 {
+    margin-top: $sp2*2;
     padding: $sp2 $sp * 3;
 
-    color: $color-black;
+    color: $black;
     background: #eff0f3;
 }
