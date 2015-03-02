@@ -358,14 +358,19 @@ th {
 
 html {
   font-size: 62.5%; }
+  @media screen and (min-width: 448px) {
+    html {
+      font-size: 75%; } }
+  @media screen and (min-width: 800px) {
+    html {
+      font-size: 100%; } }
 
 body {
   font-family: "Karla", Helvetica, Arial, sans-serif;
   font-size: 1.4rem;
   line-height: 2.4rem;
-  max-width: 44.8rem;
   margin: 0 auto;
-  padding: 0 1.6rem;
+  padding: 0 2.4rem;
   color: #858a9a;
   background: white; }
 
@@ -423,7 +428,7 @@ a:hover {
 
 .site-header {
   display: flex;
-  height: 6.4rem;
+  height: 9.6rem;
   margin-bottom: 1.6rem;
   justify-content: space-between;
   align-items: center; }

@@ -16,6 +16,10 @@ $primary:           #1E76F2;
 $grey:              #858A9A;
 $black:             #2C2E2F;
 
+$break-medium:     448px;
+$break-large:     800px;
+$break-xlarge:     1000px;
+
 @import
   "normalize",
   "base"

@@ -1,6 +1,14 @@
 html
 {
     font-size: $base-font-size;
+
+    @media screen and (min-width: $break-medium) {
+        font-size: 75%;
+    }
+
+    @media screen and (min-width: $break-large) {
+        font-size: 100%;
+    }
 }
 
 body
@@ -9,9 +17,8 @@ body
     font-size: 1.4rem;
     line-height: $sp * 3;
 
-    max-width: $sp * 56;
     margin: 0 auto;
-    padding: 0 $sp2;
+    padding: 0 $sp * 3;
 
     color: $grey;
     background: white;
@@ -104,14 +111,12 @@ a:hover
 {
     display: flex;
 
-    height: $sp2*4;
+    height: $sp2*6;
     margin-bottom: $sp2;
 
     justify-content: space-between;
     align-items: center;
 }
-
-
 
 .page-link
 {
