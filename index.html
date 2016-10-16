@@ -1,30 +1,58 @@
----
-layout: default
----
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Jeremie Michaels Lim is a digital product designer in San Francisco.</title>
+        <meta name="description" content="Jeremie Michaels Lim is a digital product designer in San Francisco.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-{% include header.html %}
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-<div class="home">
-  {% for post in site.posts %}
-  <div class="home__post">
-    <p class="post-meta home__post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+        <link rel="stylesheet" href="css/screen.css">
+        </script>
+    </head>
+    <body>
+        <div class="main">
+            <h1 class="about-heading">Hi there I’m Jeremie, a designer interested in influencing the human experience through digital products. Currently at <a class="about-link" href="http://braintreepayments.com/">Braintree</a>.</h1>
 
-    <h1><a class="home__post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+            <!-- <h3 class="slide-in">Mini projects</h3>
 
-    {{ post.excerpt }}
+            <ul class="list-active experiments slide-in">
+                <li class="slide-in">
+                    <a href="http://jeremiespoken.com/typ/" target="_blank">Tip Calculator</a>
+                    <svg id="tipCalc" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 85" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><path d="M0 57L0 0C0 0 5.3 0 7.1 0 8.9 0 12.4 0 14.2 0 16 0 19.6 0 21.3 0 23.1 0 26.7 0 28.4 0 30.2 0 33.8 0 35.6 0 37.3 0 37.3 3 39.1 3 40.9 3 40.9 0 42.7 0 44.4 0 44.4 3 46.2 3 48 3 48 0 49.8 0 51.6 0 51.6 3 53.3 3 55.1 3 55.1 0 56.9 0 58.7 0 64 0 64 0L64 85 0 85 0 57Z" fill="#FFFFFF"/><rect fill="#000000" x="9.5" y="43.6" width="44.5" height="2"/><rect fill="#000000" x="10" y="53" width="44.5" height="2"/><rect fill="#000000" x="32" y="62" width="22" height="2"/><text font-family="Inconsolata" font-size="11.1" font-weight="normal" fill="#210026"><tspan x="8.5" y="29.1">TYP</tspan></text></g></svg>
+                </li>
+            </ul> -->
 
-    <div>
-      <a class="home__post__more" href="{{ post.url | prepend: site.baseurl }}">
-        <svg class="home__post__more__arrow" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" version="1.1">
-          <title>Read more&hellip;</title>
-          <g stroke="none" fill="none" fill-rule="evenodd">
-            <path stroke-width="1" class="home__post__more__arrow--stroke" d="M25.7 15L32.7 20.6 7 20.6"/>
-          </g>
-        </svg>
-      </a>
-    </div>
-  </div>
-  {% endfor %}
-</div>
+            <h3 class="slide-in">Follow me</h3>
 
-{% include footer.html %}
+            <ul class="list-active elsewhere slide-in">
+                <li class="elsewhere-twitter slide-in" target="_blank"><a href="http://www.twitter.com/jeremiespoken">I share design links on Twitter</a></li>
+                <li class="elsewhere-medium slide-in" target="_blank"><a href="https://medium.com/@jeremiespoken">I express my thoughts on Medium</a></li>
+                <li class="elsewhere-dribbble slide-in" target="_blank"><a href="http://www.dribbble.com/jeremiespoken">I play with shape &amp; colors on Dribbble</a></li>
+                <li class="elsewhere-codepen slide-in" target="_blank"><a href="http://www.codepen.io/jeremiespoken">I explore interactions on Codepen</a></li>
+            </ul>
+
+            <h3 class="slide-in">Get in touch</h3>
+
+            <ul class="list-active contact slide-in">
+                <li><a href="mailto:hello@jeremiespoken.com">hello@jeremiespoken.com</a></li>
+            </ul>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/min/plugins-min.js"></script>
+        <script src="js/min/main-min.js"></script>
+
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-22956153-1','auto');ga('send','pageview');
+        </script>
+
+    </body>
+</html>

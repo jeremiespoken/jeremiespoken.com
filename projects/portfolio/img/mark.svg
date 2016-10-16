@@ -1,0 +1,18 @@
+<svg width="128px" height="128px" viewBox="0 0 127 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <g id="portfolio" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="artboard" sketch:type="MSArtboardGroup" transform="translate(-742.000000, -288.000000)" fill="#FFFFFF">
+            <g id="intro" sketch:type="MSLayerGroup" transform="translate(-2.000000, -3.000000)">
+                <g id="mark" transform="translate(744.000000, 291.000000)" sketch:type="MSShapeGroup">
+                    <path d="M31,64 L63,95.9996719 L31,128 L31,64" id="Fill-1"></path>
+                    <path d="M31.0224609,63.9968262 L0,96 L63,96 L31.0224609,63.9968262 Z" id="Fill-2"></path>
+                    <path d="M95,64 L63,32 L95,0 L95,64" id="Fill-3"></path>
+                    <path d="M63,32 L95,64 L127,32 L63,32" id="Fill-4"></path>
+                    <path d="M63,32.0006562 L31.0612793,64.1704102 L0,32.0006562 L63,32.0006562 Z" id="Fill-5"></path>
+                    <path d="M63,31.9996719 L31,0 L31,64.0778809 L63,31.9996719 Z" id="Fill-6"></path>
+                    <path d="M63,96 L95.0006562,64 L127,95.9993438 L63,96" id="Fill-7"></path>
+                    <path d="M95,64 L63,96.0003281 L94.9993439,128 L95,64" id="Fill-8"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
